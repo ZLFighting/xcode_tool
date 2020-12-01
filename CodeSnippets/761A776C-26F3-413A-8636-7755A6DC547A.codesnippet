@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>btnInit</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *btn = [[UIButton alloc] init];
+btn.backgroundColor = [UIColor &lt;#backgroundColor#&gt;];
+btn.titleLabel.font = [UIFont &lt;#font#&gt;];
+[btn setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
+[btn setTitleColor:[UIColor &lt;#titleColor#&gt;] forState:UIControlStateNormal];
+[btn addTarget:self action:@selector(btnClicked:) forControlEvents:UIControlEventTouchUpInside];
+[&lt;#view#&gt; addSubview:btn];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>761A776C-26F3-413A-8636-7755A6DC547A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>btnInit</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>btnInit常规按钮初始化</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

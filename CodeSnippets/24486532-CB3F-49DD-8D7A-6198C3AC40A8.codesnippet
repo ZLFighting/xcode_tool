@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>list</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (NSMutableArray *)&lt;#_list#&gt; {
+    if (&lt;#_list#&gt; == nil) {
+        &lt;#_list#&gt; = [[NSMutableArray alloc] initWithCapacity:0];
+    }
+    return &lt;#_list#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>24486532-CB3F-49DD-8D7A-6198C3AC40A8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>不可变数组的getter</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>网络数据的list的get</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

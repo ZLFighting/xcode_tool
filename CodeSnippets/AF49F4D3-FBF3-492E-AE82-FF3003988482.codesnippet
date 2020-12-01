@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tbs</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - UITableViewDataSource
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return &lt;#number#&gt;;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return &lt;#number#&gt;;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *cellIdentigy = @"&lt;#cellIdentigy#&gt;";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentigy];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentigy];
+    }
+    &lt;#内容#&gt;
+    return cell;
+}
+
+#pragma mark - UITableViewDelegate
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return &lt;#rowHeight#&gt;;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AF49F4D3-FBF3-492E-AE82-FF3003988482</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>三问</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tableView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
